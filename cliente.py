@@ -22,7 +22,7 @@ print("Pedra amassa tesoura")
 while True:
     user_choice = input("\nEscolha R(Pedra)/T(Tesoura)/P(Papel)/L(Lagarto)/S(Spock) ou Q para sair: ").lower()
 
-    # mandaa escolha do cliente (user) para o servidor
+    # manda a escolha do cliente (user) para o servidor
     sock.sendto(user_choice.encode(), (host, port))
 
     if user_choice == 'q':
