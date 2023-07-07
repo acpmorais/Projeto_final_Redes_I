@@ -28,6 +28,7 @@ while True:
         break
 
     if user_choice not in options:
+        print("\nLetra inválida. Digite uma letra de acordo com as opções.")
         continue
 
     computer_choice = random.randint(0, 4)
