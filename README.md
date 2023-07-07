@@ -55,4 +55,5 @@ Para este software, o protocolo de transporte escolhido foi o UDP porque o jogo 
 - Conexão de rede entre o cliente e o servidor.
 - A porta de rede utilizada pelo software (neste caso, a porta 12345) deve estar aberta e sem bloqueio por firewalls ou outros mecanismos de segurança.
 - Python 3.x instalado.
+- Entrada válida.
 
