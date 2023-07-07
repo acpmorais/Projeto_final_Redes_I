@@ -2,7 +2,7 @@ import random
 import socket
 
 # configuração do servidor
-host = ''  # endereço de IP do servidor
+host = ''  # endereço de IP do servidor (precisa colocar um IP válido antes de rodar)
 port = 12345         # número de porta do servidor
 
 # lógica do jogo
